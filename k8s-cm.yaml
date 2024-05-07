@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  cluster_env: NPROD
+  cluster_name: k8s-nprod-0667
+  squad_ad_group: AP_CLD_05320_SQ013
+  squad_git_project: CLOUD
+  tenant_prefix: iao-sq013
+kind: ConfigMap
+metadata:
+  name: k8s-kb-cluster-info
